@@ -4,14 +4,14 @@ import React from 'react'
 import Experience from './experience'; 
 import Projects from './projects'; 
 import gifImage from './developer.gif'
-
+import ParticlesComponent from './particles';
 
 function App() {
 
   return (
     <div className="App">
-      
       <main className="App-main">  
+        <ParticlesComponent id="particles" />
         <h1>Welcome to My Portfolio</h1>
         <p>I am a software developer currently pursuing MS in Computer Science from University of Southern California. </p>
         <div className='gif-container'>

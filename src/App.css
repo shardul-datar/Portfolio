@@ -16,6 +16,14 @@
   pointer-events: none;
 }
 
+ #particles canvas {
+
+   z-index: -1;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+ }
+
 /* Styling for animated GIF */
 .gif-container {
   position: absolute;
@@ -39,6 +47,8 @@
 
 /* Main content styling */
 .App-main {
+  color: white;
+  z-index: 0;
   margin-left: 300px;
   flex: 20;
   padding: 200px;
@@ -65,6 +75,7 @@
 
 /* Footer styling */
 .App-footer {
+  z-index: 0; 
   height: 50px;
   background-color: #282c34;
   color: white;
