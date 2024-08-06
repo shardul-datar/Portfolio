@@ -1,19 +1,22 @@
-// import './App.css';
+import './App.css';
 import { createRoot } from 'react-dom/client'
 import React from 'react'
 import Home from './home'
 import Experience from './experience'; 
 import Projects from './projects'; 
+import Navbar from './navbar';
 
 function App() {
 
   return (
       
-    <div className="App">
-      {/* <Experience />
-      <Projects /> */}
-      <Home />
-    </div>
+  <div className='App'>
+    <Navbar />
+    <Home />
+    <Projects />
+    <Experience />
+
+  </div>
 
   );
 }

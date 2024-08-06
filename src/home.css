@@ -17,14 +17,14 @@
     z-index: -1;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: -1;
 }
 
 /* Styling for animated GIF */
 .gif-container {
     position: absolute;
     /* Position absolute to position relative to its parent */
-    top: 150px;
+    top: 250px;
     /* Adjust as needed */
     left: 300px;
     /* Adjust as needed */
@@ -50,6 +50,22 @@
     padding: 200px;
 }
 
+.txt{
+    position: absolute;
+    font-size: 20px;
+    padding: 20px;
+    align-items: center;
+    top: 180px;
+    left: 600px;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+p{
+    margin-top: 30px;
+}
 .button-container {
     margin-top: 50px;
 }
@@ -67,17 +83,4 @@
 
 .home-button:hover {
     background-color: #3f9bcf;
-}
-
-/* Footer styling */
-.Home-footer {
-    z-index: 0;
-    height: 50px;
-    background-color: #282c34;
-    color: white;
-    width: 100%;
-    padding: 0px;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
 }
