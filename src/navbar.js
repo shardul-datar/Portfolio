@@ -13,8 +13,8 @@ function Navbar () {
         <header>
             <nav ref={navRef}>
                 <a href="/"> Home </a>
-                <a href="/projects"> Projects </a>
-                <a href="/experience"> Experience </a>
+                <a href="/projects"> Projects  </a>
+                <a href="/experience"> Experience  </a>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes />
                 </button>

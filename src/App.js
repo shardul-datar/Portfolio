@@ -1,5 +1,6 @@
 import './App.css';
 import { createRoot } from 'react-dom/client'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import React from 'react'
 import Home from './home'
 import Experience from './experience'; 
@@ -11,10 +12,7 @@ function App() {
   return (
       
   <div className='App'>
-    <Navbar />
     <Home />
-    <Projects />
-    <Experience />
 
   </div>
 
