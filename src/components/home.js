@@ -1,11 +1,7 @@
 import './home.css'
 import React from 'react' 
-import { Route, Routes } from 'react-router-dom';
-import Experience from './experience'; 
-import Projects from './projects'; 
 import gifImage from './developer.gif'
 import ParticlesComponent from './particles';
-import Navbar from './navbar'
 
 function Home() {
 
@@ -13,8 +9,7 @@ function Home() {
       <div className="Home">
         <main className="Home-main">  
           
-          <ParticlesComponent id="particles" />
-          
+          <ParticlesComponent id="particles" />    
           
           <div className='txt'>  
           <h1>Welcome to My Portfolio</h1>

@@ -11,20 +11,10 @@ function Projects() {
             id: 1,
             title: 'Health Bridge',
             description: 'Description of Project 1',
-            // imageUrl: 'https://example.com/project1.jpg',
             tags: ['NLP', 'Machine Learning', 'Python'],
             githubUrl: 'https://github.com/yourusername/project1',
-            // demoUrl: 'https://yourprojectdemo.com'
         },
-        // {
-        //     id: 2,
-        //     title: 'Multi-Task Reinforcement Learning',
-        //     description: 'Description of Project 2',
-        //     // imageUrl: 'https://example.com/project2.jpg',
-        //     tags: ['Node.js', 'Express', 'Backend'],
-        //     githubUrl: 'https://github.com/yourusername/project2',
-        //     // demoUrl: 'https://yourprojectdemo.com'
-        // },
+       
     ];
 
     const projects_ml = [
