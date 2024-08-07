@@ -1,17 +1,11 @@
-.projects-page {
+.exp-page {
+    z-index: 5;
     max-width: 800px;
     margin: auto;
     padding: 50px;
 }
 
-/* 
-.txt h4 {
-
-    font-size: 24px;
-    color: white;
-} */
-
-.project-card {
+.exp-card {
     display: flex;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -20,7 +14,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.project-image {
+.exp-image {
     width: 200px;
     height: 150px;
     object-fit: cover;
@@ -28,13 +22,14 @@
     margin-right: 20px;
 }
 
-.project-details {
+.exp-details {
     flex: 1;
     color: white;
 }
 
-.project-tags {
+.exp-tags {
     margin-bottom: 10px;
+    padding-top: 20px;
 }
 
 .tag {
@@ -45,16 +40,17 @@
     font-size: 0.9em;
 }
 
-.project-links {
+.exp-links {
     margin-top: 10px;
+    padding-top: 10px;
 }
 
-.project-links a {
+.exp-links a {
     margin-right: 10px;
     text-decoration: none;
     color: white;
 }
 
-.project-links a:hover {
+.exp-links a:hover {
     text-decoration: underline;
 }

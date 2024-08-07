@@ -3,12 +3,12 @@
     margin: auto;
     padding: 50px;
 }
-/* 
-.txt h4 {
 
-    font-size: 24px;
+.projects-page h1 {
+    padding-top: 65px;
+    font-size: 30px;
     color: white;
-} */
+}
 
 .project-card {
     display: flex;
@@ -34,6 +34,7 @@
 
 .project-tags {
     margin-bottom: 10px;
+    padding-top: 20px;
 }
 
 .tag {
@@ -46,6 +47,7 @@
 
 .project-links {
     margin-top: 10px;
+    padding-top: 10px;
 }
 
 .project-links a {

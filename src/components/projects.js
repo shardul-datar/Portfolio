@@ -9,16 +9,16 @@ function Projects() {
     const projects = [
         {
             id: 1,
-            title: 'Project 1',
+            title: 'Sarcasm Generation',
             description: 'Description of Project 1',
             // imageUrl: 'https://example.com/project1.jpg',
-            tags: ['React', 'JavaScript', 'Frontend'],
+            tags: ['NLP', 'Machine Learning', 'Python'],
             githubUrl: 'https://github.com/yourusername/project1',
             // demoUrl: 'https://yourprojectdemo.com'
         },
         {
             id: 2,
-            title: 'Project 2',
+            title: 'Multi-Task Reinforcement Learning',
             description: 'Description of Project 2',
             // imageUrl: 'https://example.com/project2.jpg',
             tags: ['Node.js', 'Express', 'Backend'],
@@ -34,7 +34,7 @@ function Projects() {
             <ParticlesComponent id="particles" />
             <Navbar />    
         
-            <h1>Projects</h1>
+            <h1>Full Stack</h1>
             <div className="projects-list">
                 {projects.map(project => (
                     <div key={project.id} className="project-card">
