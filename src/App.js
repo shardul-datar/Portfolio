@@ -1,25 +1,30 @@
 import './App.css';
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Router, Route, Routes } from 'react-router-dom';
 import React from 'react'
-import Home from './home'
-import Experience from './experience'; 
-import Projects from './projects'; 
-import Navbar from './navbar';
+import Home from './components/home'
+import Experience from './components/experience'; 
+import Projects from './components/projects'; 
+import Navbar from './components/navbar'
 
 function App() {
 
   return (
-      
-  <div className='App'>
-    <Home />
-
-  </div>
+    
+    <div className='container'>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </div>
+    
+  // <div className='App'>
+  //   <Home />
+  // </div>
 
   );
 }
 
-const root = createRoot(document.getElementById('root'));
-root.render(<App />); 
 
 export default App;
