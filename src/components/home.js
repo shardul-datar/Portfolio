@@ -14,7 +14,7 @@ function Home() {
         <main className="Home-main">  
           
           <ParticlesComponent id="particles" />
-          <Navbar />
+          
           
           <div className='txt'>  
           <h1>Welcome to My Portfolio</h1>
