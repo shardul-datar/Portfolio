@@ -1,0 +1,56 @@
+.exp-page {
+    z-index: 5;
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+}
+
+.exp-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .exp-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+} */
+
+.exp-details {
+    flex: 1;
+    color: white;
+}
+
+.exp-tags {
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.tag {
+    background-color: gray;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+
+.exp-links {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.exp-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.exp-links a:hover {
+    text-decoration: underline;
+}
