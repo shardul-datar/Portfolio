@@ -13,7 +13,7 @@ function Experience() {
             description: 'I led the development and implementation of an AI-powered tool under the guidance of Dr. HongSheng Tong. The tool analyzes extensive sets of 3D orthodontic patient scanned models. My focus was on using AI technology to automate orthodontic diagnosis, treatment planning, and outcome prediction. The ultimate goal was to revolutionize orthodontic care by applying innovative uses of artificial intelligence.',
             // imageUrl: 'https://example.com/project1.jpg',
             tags: ['Image Processing', 'Python', 'Machine Learning'],
-            githubUrl: 'https://github.com/yourusername/project1',
+            githubUrl: 'https://github.com/shardul-datar?tab=repositories',
             // demoUrl: 'https://yourprojectdemo.com'
         },
         {
@@ -22,7 +22,7 @@ function Experience() {
             description: 'As a group leader, I had the privilege of collaborating with Prof. Umesh Kulkarni and supervising a team of five talented individuals. Our collective objective was to design a Face Mask Detection system utilizing Deep Learning techniques in Python. This endeavor involved organizing and analyzing a vast dataset comprising approximately 5,000 images and developing a Neural Network incorporating two Convolution and MaxPool layers, each with a ReLU activation function. Our dedicated efforts yielded positive results, culminating in creating a dependable solution.',
             // imageUrl: 'https://example.com/project2.jpg',
             tags: ['Deep Learning', 'Image Processing', 'MAchine Learning'],
-            githubUrl: 'https://github.com/yourusername/project2',
+            githubUrl: 'https://github.com/shardul-datar/Face-Mask-Detector',
             // demoUrl: 'https://yourprojectdemo.com'
         },
         // Add more projects as needed

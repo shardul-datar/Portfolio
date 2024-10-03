@@ -7,6 +7,7 @@
 .projects-page h1 {
     padding-top: 65px;
     font-size: 30px;
+    text-align: center;
     color: white;
 }
 
@@ -19,22 +20,28 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* .project-image {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-right: 20px;
-} */
-
 .project-details {
     flex: 1;
     color: white;
 }
 
-.project-tags {
-    margin-bottom: 10px;
+.project-details h2{
+    flex: 1;
+    color: white;
     padding-top: 20px;
+    padding-left: 40px;
+}
+
+.project-details p {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.project-tags {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
 }
 
 .tag {
@@ -48,9 +55,11 @@
 .project-links {
     margin-top: 10px;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .project-links a {
+    padding-left: 40px;
     margin-right: 10px;
     text-decoration: none;
     color: white;

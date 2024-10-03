@@ -14,22 +14,28 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* .exp-image {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-right: 20px;
-} */
-
 .exp-details {
     flex: 1;
     color: white;
 }
 
-.exp-tags {
-    margin-bottom: 10px;
+.exp-details h2 {
+    flex: 1;
+    color: white;
     padding-top: 20px;
+    padding-left: 40px;
+}
+
+.exp-details p {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.exp-tags {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
 }
 
 .tag {
@@ -43,10 +49,12 @@
 .exp-links {
     margin-top: 10px;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .exp-links a {
     margin-right: 10px;
+    padding-left: 40px;
     text-decoration: none;
     color: white;
 }
