@@ -6,7 +6,7 @@ import Navbar from "./navbar";
 
 function Projects() {
 
-    const projects_fs = [
+    const projects_fs = [        
         {
             id: 1,
             title: 'SociaLink',
@@ -41,15 +41,24 @@ function Projects() {
     ];
 
     const projects_ml = [
+        
         {
             id: 1,
+            title: 'Olympics Highlights Generator',
+            description: "During the Cerebral Beach Hackathon in October 2024, I secured 1st place in the sports category for developing an AI-powered Olympics Highlights Generator. This project involved building a full-stack web application using a JavaScript backend, Flask, and AWS S3 for video storage. By integrating Twelve Labs' Marengo model, I enabled the system to extract relevant clips based on user queries and seamlessly merged these clips into highlight videos using a Python script. To enhance the user experience, I incorporated Pegasus to generate AI-driven commentary and a text-to-speech model for audio narration. Additionally, I used the Gemini API to filter out hallucinated content, improving the accuracy of the commentary by 90%. This project showcases my ability to work with advanced AI models, full-stack development, and cloud technologies to deliver an impactful, end-to-end solution.",
+            tags: ['API', 'JavaScript', 'Flask', 'AWS Cloud', 'Generative AI'],
+            githubUrl: 'https://github.com/shardul-datar/Olympics_Highlights_Generator-CerebralHacks',
+        },
+
+        {
+            id: 2,
             title: 'Sarcasm Generation',
             description: "This project focused on developing a system for generating sarcastic comments based on contextual cues from a Reddit dataset of over 500,000 entries. Using SQL and MongoDB to store contextual posts alongside sarcastic comments, a Python script was implemented to reframe posts as questions, improving sarcasm generation by 75% during training. The project employed two approaches: fine-tuning language models (GPT2, OPT, Bert, T5) and prompt-based generation using the Mistral-7b API. A sarcasm detection model was also integrated to evaluate generated text, achieving 88% accuracy for the prompt-based model and 59.2% for the fine-tuned model.",
             tags: ['NLP', 'Machine Learning', 'Python', 'LLMs'],
             githubUrl: 'https://github.com/shardul-datar/Sarcasm-Generation',
         },
         {
-            id: 2,
+            id: 3,
             title: 'Multi-Task Reinforcement Learning',
             description: "This project focuses on developing a multi-task agent using reinforcement learning within the Chain Reaction Tool Environment (CREATE) via OpenAI Gym. The agent was trained to handle various tasks by strategically selecting and placing tools on the screen to guide objects toward designated goals. By integrating soft-modularization techniques, the model's performance saw a 150% increase in reward function value. The agent’s adaptability was further enhanced through a routing network. Additionally, a single-task reinforcement learning model was implemented using Actor-Critic-based Proximal Policy Optimization (PPO) to optimize the agent's decision-making process.",
             tags: ['Reinforcement Learning', 'Python', 'Actor Critique Model'],
@@ -57,11 +66,19 @@ function Projects() {
         },
 
         {
-            id: 3,
+            id: 4,
             title: 'Fake News Detection System',
             description: "The Fake News Detection System is an advanced NLP project designed to classify news articles as real or fake through a robust end-to-end CI/CD pipeline. Utilizing a comprehensive dataset of 45,000 instances, the system leverages SQL for efficient data management and implements a Passive Aggressive Classifier model for prediction. The project involves meticulous data preprocessing using td-idf vectorization, ensuring optimal feature representation for effective classification. Additionally, cosine similarity with News API enhances the accuracy and reliability of the detection process. This system achieved an impressive 92% accuracy on the test dataset, validating its efficacy in discerning authentic from fabricated news articles.",
             tags: ['Python', 'API', 'Passive-Aggressive Model', 'Flask'],
             githubUrl: 'https://github.com/shardul-datar/Fake_News_Detector_In_Django',
+        },
+
+        {
+            id: 5,
+            title: 'Face Mask Detector',
+            description: "As a group leader, I had the privilege of collaborating with Prof. Umesh Kulkarni and supervising a team of five talented individuals. Our collective objective was to design a Face Mask Detection system utilizing Deep Learning techniques in Python. This endeavor involved organizing and analyzing a vast dataset comprising approximately 5,000 images and developing a Neural Network incorporating two Convolution and MaxPool layers, each with a ReLU activation function. Our dedicated efforts yielded positive results, culminating in creating a dependable solution.",
+            tags: ['Python', 'Deep Learning', 'OpenCV'],
+            githubUrl: 'https://github.com/shardul-datar/Face-Mask-Detector',
         },
     ];
 
