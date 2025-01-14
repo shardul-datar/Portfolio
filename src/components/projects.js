@@ -6,9 +6,17 @@ import Navbar from "./navbar";
 
 function Projects() {
 
-    const projects_fs = [        
+    const projects_fs = [   
         {
             id: 1,
+            title: "AI'm Right!",
+            description: "During the SBHacks hackathon, I developed AI’m Right!, a generative AI-powered web application designed to enhance exam preparation and improve study efficiency by 30%, as reported by user feedback. The project featured a scalable full-stack ETL pipeline using Streamlit for the frontend, Flask for the backend, and Pinecone for vector database management. Leveraging Aryn AI's Sycamore model and Anthropic's Claude API, the application generated custom quizzes with 96% accuracy in topic relevance and answer validation. Additionally, it incorporated advanced video search capabilities using TwelveLabs' Marengo model API, allowing users to locate specific topics in lecture videos, reducing search time by 70%.",
+            tags: ['Flask', 'ArynAI API', 'Pinecone', 'Streamlit', 'Anthropic API', 'Gen AI'],
+            githubUrl: 'https://github.com/shardul-datar/SBHacks',
+        },
+
+        {
+            id: 2,
             title: 'SociaLink',
             description: 'SociaLink is a dynamic social media platform designed to connect over 500 users. Built using the MERN stack, it includes key features such as user authentication, posts, likes, and comments. The interactive interface, developed in React with reusable components, improved development speed by 30%. The platform’s scalable Hadoop database is optimized to support over 1,000 concurrent users, handling millions of interactions efficiently. Deployed on AWS, with CI/CD pipelines for continuous integration, the application ensures fast performance, reducing API response times by 40% and maintaining a reliable 99.9% uptime.',
             tags: ['React', 'JavaScript', 'MongoDB', 'AWS Cloud', 'MERN Stack'],
@@ -16,7 +24,7 @@ function Projects() {
         },
 
         {
-            id: 2,
+            id: 3,
             title: 'ConferX',
             description: 'ConferX is a full-stack video conferencing and web chat application designed for seamless, real-time communication. Built using HTML, JavaScript, CSS, Spring, AJAX, and Kurento client APIs, the platform enables multi-party video conferencing with secure user registry and dynamic room creation. Users can host custom virtual meetings with advanced collaboration tools, including live video conferencing, public/private chat, canvas sharing, and presentation sharing. The platform enhances user experience with real-time video streaming and sharing, fostering interactive and multimedia-rich communication.',
             tags: ['React', 'JavaScript', 'MongoDB', 'AWS Cloud', 'MERN Stack'],
@@ -24,7 +32,7 @@ function Projects() {
         },
 
         {
-            id: 3,
+            id: 4,
             title: 'Health Bridge',
             description: 'Health Bridge is a full-stack web application designed to improve healthcare accessibility in rural areas. Developed using ReactJS, MongoDB, NodeJS, HTML, and CSS, it provides features like online consultations, payment gateways, and a scheduling system to simplify healthcare services. The platform also includes an NLP-based generic brand finder, helping users search for affordable and available medications. Machine learning models such as KNN, Naive Bayes, and SVM are integrated for disease diagnosis, including diabetes, heart, and liver conditions, enhancing early detection and personalized healthcare recommendations.',
             tags: ['React', 'JavaScript', 'MongoDB', 'AWS Cloud', 'MERN Stack'],
@@ -32,7 +40,7 @@ function Projects() {
         },
 
        {
-            id: 4,
+            id: 5,
             title: 'Movie Recommendation System - API',
             description: "The Movie Rating Website is a full-stack application designed to provide users with comprehensive information about movies and TV series, including details such as cast, release dates, and aggregated ratings. Developed using Python Flask, the site features a dynamic and responsive user interface that enhances user experience. To manage extensive datasets—comprising user watch history, ratings, and movie details—a SQL database is employed, ensuring efficient data retrieval and storage. The platform integrates the ‘TasteDive’ API to power a robust recommendation system, suggesting similar movies and TV shows based on user preferences, genres, and rating history. By leveraging a recommendation algorithm that utilizes watch history and ratings, the website enhances user engagement and satisfaction, providing personalized content suggestions.",
             tags: ['React', 'JavaScript', 'MongoDB', 'AWS Cloud', 'MERN Stack'],
